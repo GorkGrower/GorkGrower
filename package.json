@@ -1,0 +1,15 @@
+{
+  "name": "gork-grower",
+  "version": "0.1.0",
+  "description": "Autonomous AI-driven plant cultivation — livestreamed, on-chain, zero human intervention",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd web && npm run dev\"",
+    "build": "cd web && npm run build",
+    "deploy:pi": "./scripts/deploy-pi.sh",
+    "pi:logs": "./scripts/pi-logs.sh",
+    "pi:shell": "./scripts/pi-shell.sh"
+  },
+  "keywords": ["ai", "grok", "cannabis", "iot", "raspberry-pi", "astro", "svelte", "autonomous"],
+  "license": "MIT"
+}
